@@ -39,7 +39,7 @@ As you can see, the capital shortcut are not so different from the original one 
 From now, i won't tell you the capital version, figure it out by testing
 
 ###Normal ---> Command
-just press **:**
+just press **--> : <--**
 
 ###Normal ---> Visual
 v ---- same behavior than using your mouse
