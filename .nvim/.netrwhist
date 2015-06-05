@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/moi/projet_en_go/src/WebChat'
+let g:netrw_dirhist_2='/home/moi/projet_en_go/src/WebChat/controllers'
+let g:netrw_dirhist_3='/home/moi/TP'
+let g:netrw_dirhist_4='/home/moi'
+let g:netrw_dirhist_5='/home/moi/.vim/startup'
+let g:netrw_dirhist_6='/home/moi'
+let g:netrw_dirhist_7='/home/moi/QQat'
+let g:netrw_dirhist_8='/home/moi/QQat_old/views'
+let g:netrw_dirhist_9='/home/moi/QQat/jsx'

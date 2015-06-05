@@ -1,0 +1,36 @@
+" leader key
+let mapleader=","
+
+" Double les trucs
+imap <leader><CR> <ESC>Ea
+
+" Saut de ligne en normal
+nmap <leader>o o<ESC>k
+nmap <leader>O O<ESC>j
+
+" utilisation des fleches customisees
+imap <S-up> <ESC>ddkPa
+imap <S-down> <ESC>ddpa
+nmap <S-up> ddkP
+nmap <S-down> ddp
+
+nmap <left> b
+imap <left> <ESC>bi
+nmap <S-left> hebdwBP
+nmap <C-left> heBdWBP
+
+nmap <right> w
+imap <right> <ESC>wa
+nmap <S-right> hebdwWP
+nmap <C-right> heBdWWP
+
+" Gestion des split/onglet
+nmap <Tab>l :tabnext<CR>
+nmap <Tab>h :tabprevious<CR>
+nmap H <C-W>h
+nmap L <C-W>l
+
+" Pour les { }
+imap {<CR> {<CR>}<ESC>O
+
+"nmap <leader>md :InstantMarkdownPreview<CR>
