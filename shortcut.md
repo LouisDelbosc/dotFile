@@ -87,7 +87,7 @@ Some other command doesn't need any motion shortcut
 
 letter | meaning | execution
 --- | --- | ---
-p | **p**aste | paste the string in buffer (by y\<m> or d\<m>)
+p | **p**aste | paste the string in buffer (which get there with y\<m> or d\<m>)
 u | **u**ndo | undo
 \<C-r> | ctrl-r for **r**edo | redo
 zz | none | put the writing line in the screen center
@@ -114,7 +114,8 @@ letter | meaning | execution
 \<s> ={ numberA, numberB | % }
 the first \<s> is for setting a range, and % for the whole document
 if no \<s> then it's doing it for the line the cursor is only.
-example : :21,45s/yoyo/jaja will change the first yoyo of each line in jaja
+
+Example : :21,45s/yoyo/jaja will change the first yoyo of each line in jaja
 if you put /g at the end, it will change each yoyo in each line in jaja
 
 ##Playing with tab and split
@@ -125,13 +126,13 @@ if you want to go the the right one you do \<C-w>l (because l is to move you cur
 It is the same for each direction
 No direction (ie \<C-w>\<c-w>) is also moving you to the next split the computer choose
 
-To change tab, it's :tabnext
+To change tab, it's **:tabnext**
 
 ##.vimrc or .nvimrc
 
 You can change your setting in your vimrc ou nvimrc.
 For example : 
-nmap \<Tab>l :tabnext\<CR>
+**nmap \<Tab>l :tabnext\<CR>**
 This line is saying : In normal mode (nmap) \<Tab>l is going to do :tabnext and return(\<CR>)
 
 You can check a [video explaining](https://www.youtube.com/watch?v=2pqipq-UEwQ&list=UUjQf8LEWmpFODrRztDZfB0w&index=2) how to customize your .nvimrc
