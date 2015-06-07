@@ -28,8 +28,8 @@ a | **a**ppend | enter insert mode in the next character
 A | **A**PPEND | enter insert mode in the last character of the line
 i | **i**nsert | enter insert mode in the previous character
 I | **I**NSERT | enter insert mode in the first character of the line
-o | unknown | create a ligne below and enter insert mode
-O | unknown | create a ligne over and enter insert mode
+o | **o**pen | create a ligne below and enter insert mode
+O | **O**pen | create a ligne over and enter insert mode
 s | **s**uppr | suppr the character and enter insert mode
 S | **S**UPPR | suppr the whole ligne and enter insert mode
 c\<m> | **c**hange or **c**orrect | delete the text between the cursor and the movement and enter insert mode
@@ -61,12 +61,15 @@ letter | meaning | execution
 w | **w**ord | move to the begining next word (word are separeted by special character)
 e | **e**nd | move to the end of the next word
 b | **b**ack | move to the begining of the previous word
-f\<x> | **f**orward to \<x> | move to the next \<x>, for example f\<a> move the cursor to the next **a**
+f\<x> | **f**ind  \<x> | move to the next \<x>, for example f\<a> move the cursor to the next **a**
+t\<x> | **t**il \<x> | move until the next \<x>
 gg | unknown | back to the begining of the file
 G | unknown | go to the last line of the file
 ^ | none | move the cursor to the first character of the line
 0 | 0 char | move to the begining of the line
 $ | none | move to the end of the line
+} | none | move to the end of the paragraph
+) | none | move to the end of the paragraph
 
 ###Command using word motion
 You can edit text in normal mode, but some command needs a motion part.

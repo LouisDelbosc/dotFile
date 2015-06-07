@@ -3,6 +3,7 @@ call plug#begin('~/.nvim/plugged')
 " Make sure you use single quotes
 Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/vim-easy-align'
+Plug 'scrooloose/syntastic'
 " Plug 'fatih/vim-go'
 " Plug 'Valloric/YouCompleteMe'
 Plug 'chriskempson/base16-vim'
@@ -11,7 +12,6 @@ Plug 'tpope/vim-surround'
 " Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-Plug 'kien/ctrlp.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Lokaltog/vim-easymotion'
 " Vim pluggin pour dl les plugin

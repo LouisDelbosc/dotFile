@@ -17,3 +17,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " Include jsx indentation in .js file
 let g:jsx_ext_required = 0
+let g:syntastic_javascript_checkers = ['eslint']
